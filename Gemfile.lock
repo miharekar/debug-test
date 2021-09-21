@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/ruby/debug.git
+  revision: ff82c08466dd00b816e83efd6b131eef60e182c1
+  specs:
+    debug (1.1.0)
+      irb
+      reline (>= 0.2.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -63,7 +71,7 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     bindex (0.8.1)
-    bootsnap (1.9.0)
+    bootsnap (1.9.1)
       msgpack (~> 1.0)
     builder (3.2.4)
     capybara (3.35.3)
@@ -77,9 +85,6 @@ GEM
     childprocess (3.0.0)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
-    debug (1.1.0)
-      irb
-      reline (>= 0.2.7)
     erubi (1.10.0)
     ffi (1.15.4)
     globalid (0.5.2)
@@ -99,7 +104,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.1)
+    marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.1)
     minitest (5.14.4)
@@ -108,7 +113,7 @@ GEM
     nokogiri (1.12.4-x86_64-darwin)
       racc (~> 1.4)
     public_suffix (4.0.6)
-    puma (5.4.0)
+    puma (5.5.0)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
@@ -209,7 +214,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   capybara (>= 3.26)
-  debug
+  debug!
   jbuilder (~> 2.7)
   listen (~> 3.3)
   puma (~> 5.0)
